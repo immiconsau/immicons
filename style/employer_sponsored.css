@@ -1,0 +1,36 @@
+.container-fluidOne{
+    background-color: whitesmoke;
+    margin: 5% 3%;
+    border-radius: 15px;
+    color: #2d3e6c;
+}
+.container-fluidOne h4{
+    text-align: center;
+    padding: 3% 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+.decoration{
+    text-decoration: none;
+    color: #2d3e6c;
+    font-weight: normal;
+}
+.decoration:hover{
+    text-decoration: none;
+    font-weight: normal;
+    color: gray;
+}
+
+
+.container-fluidTwo{
+    background-color: ghostwhite;
+    margin: 5% 3%;
+    border-radius: 15px;
+    color: #2d3e6c;
+}
+.container-fluidTwo h4{
+    text-align: center;
+    padding: 3% 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}

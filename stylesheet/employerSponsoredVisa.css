@@ -1,0 +1,14 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+.container-fluid{
+    font-family: 'Cardo', serif;
+}
+.navbar{
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    width: 80%;
+    margin: 0% 9%;
+    border-radius: 16px;
+}

@@ -1,0 +1,82 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+#background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.contant{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0,0,139,0.7);
+    color: #f1f1f1;
+    width: 65%;
+    height: 100%;
+    padding: 20px;
+    -webkit-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+@media only screen and (max-width: 600px) {
+    .contant {
+        width: 85%;
+    }
+}
+.container-fluid{
+    -webkit-transform: skewX(8deg);
+    transform: skewX(8deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    margin: 30% 15%;
+}
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        margin: 45% 4%;
+    }
+}
+#contactBtn{
+    background-color: ghostwhite;
+    height: 50px;
+    border-radius: 17px;
+    color: rgba(0,0,139,0.7);
+    font-family: serif;
+    font-weight: bold;
+    margin-left: 10%;
+}
+#tourBtn{
+    background-color: ghostwhite;
+    height: 50px;
+    border-radius: 17px;
+    color: rgba(0,0,139,0.7);
+    font-family: serif;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.contantOne{
+    position: fixed;
+    top: 10%;
+    left: 70%;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .contantOne {
+        position: fixed;
+        top: 4%;
+        left: 6%;
+        border-radius: 10px;
+        background: rgb(255, 255, 255);
+    }
+}
+.contantOne img{
+    height: 120px;
+}
+@media only screen and (max-width: 600px) {
+    .contantOne img{
+        height: 95px;
+    }
+}
